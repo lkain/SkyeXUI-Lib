@@ -31,7 +31,7 @@ SkyeXUILib.Parent = game.CoreGui
 local exploit = (pebc_execute and "ProtoSmasher" or "SynapseX")
 
 if exploit == "SynapseX" then
-    syn.protect_gui(SkyeXUILib)
+    syn.protect_gui(SkyeXUILib) 
 elseif exploit == "ProtoSmasher" then
     get_hidden_gui(SkyeXUILib)
 else
