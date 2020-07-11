@@ -165,7 +165,7 @@ function Library:NewTab(name)
     end
 
     if TabVariable == 1 then
-        OptionVariable = OptionVariable + 0.4
+        OptionVariable = OptionVariable + 0.2
         OrderVar = OrderVar + 1
 
         local ContainerLabel = Instance.new("Frame")
